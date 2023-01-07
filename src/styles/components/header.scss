@@ -1,0 +1,91 @@
+
+
+header {
+    background-color: rgb(133, 57, 255);
+    height: 75px;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 2%;
+    font-family: "Montserrat";
+    
+}
+
+.options_header {
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.options_header1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    div {
+        display: flex;
+        align-items: center;
+        width: 25%;
+        justify-content: space-around;
+        button {
+            padding: 5px;
+            border: none;
+            background-color: lightcoral;
+            transition: .3s;
+            border-radius: 5px;
+            cursor: pointer;
+            &:hover {
+                transform: scale(110%);
+            }
+        }
+    }
+    .button_header {
+        color: rgb(255, 255, 255);
+    }
+}
+
+.header_button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.svg-header {
+    height: 30px;
+}
+
+.myRecipesContainer > div {
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 700px) {
+    .button_header   {
+      font-size: 11px;
+    }
+
+    .options_header1 div {
+        width: 45%;
+    }
+
+    .options_header {
+        width: 50%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .svg-header {
+        height: 20px;
+    }
+    
+  }
+
+  @media screen and (max-width: 1250px) {
+
+    .options_header1 div {
+        width: 50%;
+    }
+
+    .svg-header {
+        height: 20px;
+    }
+  }

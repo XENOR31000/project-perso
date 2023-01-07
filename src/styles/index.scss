@@ -1,0 +1,22 @@
+@import "global.scss";
+
+// components globaux
+@import "./components/header.scss";
+@import "./components/footer.scss";
+
+//Home
+@import "./components/Home/bandeauTopAccueil.scss";
+@import "./components/Home/newsletterComponent.scss";
+@import "./components/Home/sitePresentation.scss";
+
+//Recettes
+
+//MesRecettes
+
+//Connexion
+@import "./components/Connexion/connexion.scss";
+@import "./components/Connexion/logInForm.scss";
+@import "./components/Connexion/signUpForm.scss";
+
+//Profile 
+@import "./components/profile.scss";
