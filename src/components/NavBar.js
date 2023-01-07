@@ -61,7 +61,7 @@ const NavBar = () => {
               </svg>
             </NavLink>
             <NavLink to="/recettes" className={"button_header"}>
-              Recettes
+              lol
             </NavLink>
           </div>
         </>
