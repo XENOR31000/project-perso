@@ -60,7 +60,7 @@ const NavBar = () => {
                 />
               </svg>
             </NavLink>
-            <NavLink to="/recettes" className={"button_header"}>
+            <NavLink to="/" className={"button_header"}>
               lol
             </NavLink>
           </div>
