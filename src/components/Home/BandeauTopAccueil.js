@@ -6,7 +6,7 @@ const BandeauTopAccueil = () => {
   
       <div className="bandeauAccueilComponent">
         <div className="titre">
-        <h1 className="titre-bandeau" >TOUTES LES RECETTES ACCESSIBLES EN UN CLIC !</h1>
+        <h1 className="titre-bandeau" >GARAGE MERCEDES</h1>
         </div>
       </div>
     </div>
