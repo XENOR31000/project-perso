@@ -1,27 +1,64 @@
 .bandeauAccueilComponent {
-    
+    width: 100vw;
+    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    
     color: white;
     padding: 40px;
+    z-index: 1;
 }
 
 .titre-bandeau {
     font-family: "Montserrat";
     font-size: 50px;
     color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 13px #000000;
 }
 
 .titre {
     width: 50%;
-    height: 100%;
+    height: 90%;
     display: flex;
     align-items: center;
+    position: relative;
+    z-index: 2;
 }
 
 @media screen and (max-width: 500px) {
     .titre-bandeau {
         font-size: 30px;
     }
+  }
+
+  iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100vw;
+    height: 110vh;
+    transform: translate(-50%, -50%);
+    opacity: 50%;
+  }
+
+  @media (min-aspect-ratio: 16/9) {
+    .video-container iframe {
+      /* height = 100 * (9 / 16) = 56.25 */
+      height: 56.25vw;
+    }
+  }
+      
+  @media (max-aspect-ratio: 16/9) {
+    .video-container iframe {
+      /* width = 100 / (9 / 16) = 177.777777 */
+      width: 177.78vh;
+    }
+  }
+
+  #text{
+    position: absolute;
+    color: #FFFFFF;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
   }
