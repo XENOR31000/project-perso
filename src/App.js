@@ -4,6 +4,7 @@ import Connexion from "./pages/Connexion";
 import { UserContext } from "./contexts/UserContext";
 import { useState } from "react";
 import Profile from "./pages/Profile";
+import Vehicule from "./pages/vehicule";
 
 function App() {
   const [user, setUser] = useState(null);
@@ -17,6 +18,7 @@ function App() {
             <Route path="/connexion" element={<Connexion />}></Route>
             <Route path="/profile" element={<Profile />}></Route>
             <Route path="*" element={<Home />}></Route>
+            <Route path="/vehicule" element={<Vehicule/>}></Route>
           </Routes>
         </UserContext.Provider>
       </BrowserRouter>

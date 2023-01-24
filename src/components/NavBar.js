@@ -60,6 +60,7 @@ const NavBar = () => {
                 />
               </svg>
             </NavLink>
+            <NavLink to="/vehicule"> <a>test</a></NavLink>
           </div>
         </>
       );
